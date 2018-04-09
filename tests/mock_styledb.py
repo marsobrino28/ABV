@@ -13,4 +13,3 @@ class StyleDB():
             return self.brew_db.get_beer_style(name)
         except(Exception):
             return 'Unknown'
-        
